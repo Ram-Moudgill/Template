@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    caret-color: #FF0A54;
+}
+.container-fluid
+{
+    margin: 0;
+    /* width: 100vw; */
+    padding: 0;
+}
+.my__row
+{
+    background-color: #5939c5;
+    margin: 0;
+    overflow: hidden;
+}
+.nav__design
+{
+    background-color: #5939c5;
+    color: #fff;
+}
+.navbar a{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.navbar a:hover
+{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+.content-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    /* padding:20px; */
+    /* position:absolute; */
+    overflow:hidden;
+    trnsition:all 3s linear;
+}
+.color
+{
+    color: #FF0A54 !important;
+    font-weight: bolder;
+}
+.header__para
+{
+    width: 100%;
+}
+.h1__design
+{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+     /* font-family: 'Merriweather Sans', sans-serif; */
+}
+.mybtn
+{
+    background-color: #FF0A54;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+.fa-arrow-down
+{
+    background-color: #fff;
+    color:#FF0A54;
+    font-size: 1.3rem;
+    padding: 12px 14px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px 1px #fff,0px 2px 2px 1px #fff;
+    margin-bottom: 30px;
+}
+#img
+{
+    animation: ani 1s linear alternate-reverse both;
+    width: 900px;
+}
+@keyframes ani 
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(500px);
+    }
+}
